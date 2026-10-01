@@ -40,7 +40,7 @@ cpuid() {
 
 if [ -f /etc/os-release ]; then
     . /etc/os-release
-    os="$NAME"
+    os="$PRETTY_NAME"
 else
     os="Linux"
 fi
